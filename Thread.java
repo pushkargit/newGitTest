@@ -174,7 +174,7 @@ class Thread implements Runnable {
     /* For autonumbering anonymous threads. */
     private static int threadInitNumber;
     private static synchronized int nextThreadNum() {
-        System.out.println("hello")
+
         return threadInitNumber++;
     }
 
