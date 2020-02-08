@@ -8,8 +8,6 @@
  *
  *
  *
- 
- ** Adding few lines
  *
  *
  *
@@ -176,6 +174,7 @@ class Thread implements Runnable {
     /* For autonumbering anonymous threads. */
     private static int threadInitNumber;
     private static synchronized int nextThreadNum() {
+
         return threadInitNumber++;
     }
 
